@@ -39,7 +39,8 @@ export default class DeleteDepartamento extends Component {
       showCancelButton: true,
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#d33",
-      confirmButtonText: "Sí, ¡elimínalo!"
+      confirmButtonText: "Sí, ¡elimínalo!",
+      cancelButtonText: "No, ¡cancelar!"
     }).then((result) => {
       if (result.isConfirmed) {
         let id = this.props.id;
